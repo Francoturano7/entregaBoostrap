@@ -194,6 +194,7 @@ margin: 5px;
   width: 800px;
   height: 700px;
   margin-bottom: 50px;
+  background-color: #333;
 }
 .card-title{
   grid-area:title ;
@@ -963,3 +964,41 @@ display:inline;
   }
 }
 
+/* boostrap*/
+.navbar navbar-expand-lg{
+  text-decoration: none;
+  color: #d9d9d9;
+}
+.navbar-brand img{
+  max-width:100px ;
+}
+.navbar navbar-expand-lg bg-dark navbar-dark a {
+  
+  color: white;
+}
+.navbar navbar-expand-lg bg-dark navbar-dark nav {
+  background-color:rgb(131, 0, 0);
+  color: white;
+
+}
+.container-fluid{ background-color:rgb(131, 0, 0);
+color: white;
+}
+#navbarTogglerDemo03{
+  background-color:rgb(131, 0, 0) ;
+  color: white;
+}
+.carousel-inner img{
+  max-height: 700px;
+}
+.headerMenu{
+  background-color:rgb(131, 0, 0);
+
+}
+
+.navbar-nav me-auto mb-2 mb-lg-0 ul{
+  justify-content: end;
+}
+.colorB{
+  color: #d9d9d9;
+}
